@@ -37,15 +37,16 @@ export default {
 }
 .card{
   margin: 0.5rem;
-  width: 14rem;
-  height: 20rem;
+  width: 18rem;
+  height: 25rem;
   background-color: #cfe2fa;
   border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .card-image{
   margin-top: 0.5rem;
-  width: 12rem;
-  height: 16rem;
+  width: 16rem;
+  height: 20rem;
   object-fit: cover;
   border-radius: 1rem;
 }
