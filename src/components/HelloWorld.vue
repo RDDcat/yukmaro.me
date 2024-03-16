@@ -1,7 +1,21 @@
 <template>
-  <div class="hello">
-    <h1>이이 바보 ㅋㅋ</h1>
-    
+  <div class="cards">
+    <div class="card">
+      <img class="card-image" src="@/assets/yiyi.jpg">
+      <h3 class="card-text">브이이</h3>
+    </div>
+    <div class="card">
+      <img class="card-image" src="@/assets/yiyi_fox.jpg">
+      <h3 class="card-text">팍스이이</h3>
+    </div>
+    <div class="card">
+      <img class="card-image" src="@/assets/yiyi_wink.jpg">
+      <h3 class="card-text">윙키이</h3>
+    </div>
+    <div class="card">
+      <img class="card-image" src="@/assets/yiyi_babo.jpg">
+      <h3 class="card-text">바보 이이 ㅋㅋ</h3>
+    </div>
   </div>
 </template>
 
@@ -16,18 +30,26 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.card{
+  margin: 0.5rem;
+  width: 14rem;
+  height: 20rem;
+  background-color: #cfe2fa;
+  border-radius: 1rem;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+.card-image{
+  margin-top: 0.5rem;
+  width: 12rem;
+  height: 16rem;
+  object-fit: cover;
+  border-radius: 1rem;
 }
-a {
-  color: #42b983;
+.card-text{
+
 }
 </style>
