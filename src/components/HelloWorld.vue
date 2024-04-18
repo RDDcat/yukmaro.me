@@ -1,5 +1,5 @@
 <template>
-<div class="hello">hello</div>
+<video autoplay='true'><source src="@/assets/explosion.mp4" type="video/mp4" /></video>
 </template>
 
 <script>
