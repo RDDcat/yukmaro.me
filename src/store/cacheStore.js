@@ -4,6 +4,9 @@
 const cacheStore = {
   state: {
     isIntroOnce: false,
+
+    isWork: false,
+    isMe: false,
   },
   
   mutations: {
