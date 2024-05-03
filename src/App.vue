@@ -1,6 +1,6 @@
 <template>
-  <IntroExplode v-show="$store.state.modalStore.isIntroExplode" />
-  <IntroBuzz v-show="$store.state.modalStore.isIntroBuzz" />
+  <IntroExplode v-if="$store.state.modalStore.isIntroExplode" />
+  <IntroBuzz v-if="$store.state.modalStore.isIntroBuzz" />
 
   <NavComponent />
   <MeComponent />
@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import IntroExplode from './components/intro/IntroExplodeComponent.vue'
-import IntroBuzz from './components/intro/IntroBuzzComponent.vue'
+import IntroExplode from './components/IntroExplodeComponent.vue'
+import IntroBuzz from './components/IntroBuzzComponent.vue'
 
 import MeComponent from './components/MeComponent.vue'
 import NavComponent from './components/NavComponent.vue'
