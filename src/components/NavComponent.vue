@@ -1,6 +1,6 @@
 <template>
-  <div class="flex w-full">
-    <div class="flex mx-auto text-white">
+  <div class="fixed h-20 flex w-full">
+    <div class="flex my-auto mx-auto text-white">
       <div 
         class="text-xl px-6 mx-1"
         :class="{ 'text-red-400/100': isWorkHovered, 'text-red-400': $store.state.cacheStore.isWork}"
@@ -21,6 +21,7 @@
       </div>
     </div>    
   </div>
+  <div class="h-20"></div>
 </template>
 
 <script>
