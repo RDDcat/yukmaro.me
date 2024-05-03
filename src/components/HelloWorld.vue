@@ -1,18 +1,15 @@
 <template>
-<video autoplay='true'><source src="@/assets/explosion.mp4" type="video/mp4" /></video>
+<spline-viewer url="https://prod.spline.design/0-QULqF3MB8p6KT2/scene.splinecode"></spline-viewer>
 </template>
 
 <script>
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+
   },
   data(){
     return {
-      isGreen:true,
-      isyellow:true,
-      isPurple:true,
 
     }
   },
