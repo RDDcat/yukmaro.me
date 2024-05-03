@@ -5,7 +5,7 @@ const cacheStore = {
   state: {
     isIntroOnce: false,
 
-    isWork: false,
+    isWork: true,
     isMe: false,
   },
   

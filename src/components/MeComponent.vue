@@ -13,8 +13,8 @@
   </div>
   <div class="flex w-full">
     <div class="absolute ml-60 mt-44 z-50">
-      <div class="text-7xl inline-block bg-gradient-to-r from-blue-700  to-indigo-400 text-transparent bg-clip-text">아이원잇</div>
-      <div class="flex ml-1 mt-6 text-base text-white">
+      <div class="text-7xl font-bold inline-block bg-gradient-to-r from-blue-700  to-indigo-400 text-transparent bg-clip-text">아이원잇</div>
+      <div class="flex ml-1.5 mt-8 text-xl text-white">
         <div class="underline decoration-indigo-500">희귀동물</div> 입양/분양 커뮤니티 
 
       </div>
@@ -22,15 +22,21 @@
     <spline-viewer class="m-auto h-5/6" url="https://prod.spline.design/E8hknpNGgGfjRLTv/scene.splinecode"></spline-viewer>
   </div>
 
-  <!--  -->
-
-  <!-- 텍스트 -->
-  <div class="text-7xl inline-block bg-gradient-to-r from-blue-700  to-indigo-400 text-transparent bg-clip-text">Build Fast</div>
-  <div class="flex text-base text-white">
-    빠르고 <div class="underline decoration-indigo-500">젊은</div>
-
+  <!-- 기술 스택 -->
+  <!-- 스크롤 이벤트에 맞춰서 3d 모형이 회전 -->
+  <div class="flex w-full h-96">
+    <div class="m-auto text-white text-5xl">Tech</div>
   </div>
 
+  <!-- 텍스트 -->
+  <div class="flex w-full mt-2">
+    <div class="ml-auto mr-60 text-7xl font-bold inline-block bg-gradient-to-r from-blue-700  to-indigo-400 text-transparent bg-clip-text">
+      픽앤롤
+    <div class="ml-auto mt-8 flex text-base text-white">
+      새로운 볼거리와 즐길거리 <div class="underline decoration-indigo-500">젊은</div>
+    </div>
+    </div>
+  </div>
 
   <div class="h-96"></div>
   <div class="h-96"></div>
