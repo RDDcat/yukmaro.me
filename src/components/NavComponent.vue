@@ -1,6 +1,13 @@
 <template>
-  <div class="w-full">
-    sample
+  <div class="flex w-full">
+    <div class="flex mx-auto">
+      <div class="text-xl px-6">
+        WORK
+      </div>
+      <div class="text-xl px-6">
+        ME
+      </div>      
+    </div>    
   </div>
 </template>
 
