@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import IntroExplode from '@/components/intro/IntroExplode.vue'
-import IntroBuzz from '@/components/intro/IntroBuzz.vue'
+import IntroExplode from './components/intro/IntroExplode.vue'
+import IntroBuzz from './components/intro/IntroBuzz.vue'
 
 import MeComponent from './components/MeComponent.vue'
 import NavComponent from './components/NavComponent.vue'
