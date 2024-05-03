@@ -2,7 +2,8 @@
 const modalStore = {
   state: {
     // 로그인 창
-    isIntro: false,
+    isIntroExplode: false,
+    isIntroBuzz: false,
   },
 
   getters: {
@@ -11,7 +12,8 @@ const modalStore = {
   
   mutations: {
     CloseAll: (state) => {
-      state.isIntro = false
+      state.isIntroExplode = false
+      state.isIntroBuzz = false
     },
   },
 

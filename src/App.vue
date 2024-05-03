@@ -1,19 +1,28 @@
 <template>
-<div class="w-full m-16">
-  <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Default</button>
+  <IntroExplode v-show="$store.state.modalStore.isIntroExplode" />
+  <IntroBuzz v-show="$store.state.modalStore.isIntroBuzz" />
 
-</div>
-
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NavComponent />
+  <MeComponent />
+  <WorkComponent />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import IntroExplode from '@/components/intro/IntroExplode.vue'
+import IntroBuzz from '@/components/intro/IntroBuzz.vue'
+
+import MeComponent from './components/MeComponent.vue'
+import NavComponent from './components/NavComponent.vue'
+import WorkComponent from './components/WorkComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    IntroExplode,
+    IntroBuzz,
+    MeComponent,
+    NavComponent,
+    WorkComponent,
   }
 }
 </script>
