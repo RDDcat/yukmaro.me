@@ -13,7 +13,7 @@
     <div class="absolute ml-60 mt-44 z-50">
       <div class="text-7xl inline-block bg-gradient-to-r from-blue-700  to-indigo-400 text-transparent bg-clip-text">아이원잇</div>
       <div class="flex text-base text-white">
-        희귀동물 입양/분양 커뮤니티 <div class="underline decoration-indigo-500">젊은</div>
+        <div class="underline decoration-indigo-500">희귀동물</div> 입양/분양 커뮤니티 
 
       </div>
     </div>
